@@ -5,37 +5,64 @@
 	<meta charset="utf-8">
   </head>
   <body>
-    <div>
-	  <a href="index.html">Home</a>
-	  <a href="tags.html">HTML Tags</a>
-	  <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+	  <a href="index.html" style="text-decoration: none">Home</a>
+	  <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none">HTML Tags</a>
+	  <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none">Moby Dick</a>
 	</div>
     <h1>Important HTML tags</h1>
 	<a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank">
 	  <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
 	</a>
 	<p>
-	  This is designed as a quick reference for some of the common tags covered in <a href="http://learnenough.com/html-tutorial"><em>Learn Enough to Be Dangerous</em></a>. In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
+	  tdis is designed as a quick reference for some of tde common tags covered in <a href="http://learnenough.com/html-tutorial"><em>Learn Enough to Be Dangerous</em></a>. In tde process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
 	</p>
 	<p>
-	  The tables below don't include all HTML tags, but they do list many of the most important ones.
+	  tde tables below don't include all HTML tags, but tdey do list many of tde most important ones.
 	</p>
-	<h2>Block Elements</h2>
+	<h2>Document tags</h2>
 	<table>
 	  <tr>
 	    <th>Tag</th>
-		<th>Name</th>
 		<th>Purpose</th>
+	  </tr>	
+	  <tr>
+	    <td><code>html</code></td>
+		<td>first big tag, everything else nested in here</td>
+	  </tr>
+	  <tr>
+	    <td><code>head</code></td>
+		<td>not displayed, contains meta data</td>
+	  </tr>
+	  <tr>
+	    <td><code>body</code></td>
+		<td>contains all displayed html</td>
+	  </tr>
+	  <tr>
+	    <td><code>title</code></td>
+		<td>in head, gives page its title</td>
+	  </tr>
+	  <tr>
+	    <td><code>meta</code></td>
+		<td>used to set the character set for the page</td>
+	  </tr>
+	</table>
+	<h2>Block Elements</h2>
+	<table>
+	  <tr>
+	    <td>Tag</td>
+		<td>Name</td>
+		<td>Purpose</td>
 	  </tr>
 	  <tr>
 	    <td style="padding: 10px;"><code>header</code></td>
 		<td style="padding: 10px;">header</td>
-		<td style="padding: 10px;">Defines a header block container</td>
+		<td style="padding: 10px;">label tde page header</td>
 	  </tr>
 	  <tr>
 	    <td style="padding: 10px;"><code>div</code></td>
-		<td style="padding: 10px;">div</td>
-		<td style="padding: 10px;">Defines a page block</td>
+		<td style="padding: 10px;">division</td>
+		<td style="padding: 10px;">Define block-level section in document</td>
 	  </tr>
 	  <tr>
 	    <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -58,7 +85,7 @@
 		<td>include a row of data</td>
 	  </tr>
 	  <tr>
-	    <td><code>th</code></td>
+	    <td><code>td</code></td>
 		<td>table header</td>
 		<td>make a table header</td>
 	  </tr>
@@ -80,17 +107,27 @@
 	  <tr>
 	    <td><code>li</code></td>
 		<td>list element</td>
-		<td>an element nested within a list</td>
+		<td>an element nested witdin a list</td>
+	  </tr>
+	  <tr>
+	    <td><code>blockquote</code></td>
+		<td>block quotation</td>
+		<td>show formatted quotation</td>
+	  </tr>
+	  <tr>
+	    <td><code>br</code></td>
+		<td>break</td>
+		<td>enter line break</td>
 	  </tr>
 	</table>
 	<h2>Inline Elements</h2>
 	<table>
 	  <tr>
-	    <th>Tag</th>
-		<th>Name</th>
-		<th>Purpose</th>
-		<th>Example</th>
-		<th>Result</th>
+	    <td>Tag</td>
+		<td>Name</td>
+		<td>Purpose</td>
+		<td>Example</td>
+		<td>Result</td>
 	  </tr>
 	  <tr>
 	    <td><code>em</code></td>
